@@ -6,3 +6,9 @@
   box-sizing: border-box;
    font-family: "Yuyu", sans-serif;
 }
+body {
+  display:flex;
+  justify-content: center;
+  align-itens: center;
+  
+  

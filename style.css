@@ -4,10 +4,14 @@
   margin; 0
   padding; 0
   box-sizing: border-box;
-  .yuyu-regular {
-  font-family: "Yuyu", sans-serif;
+  
+.geist-pixel-<uniquifier> {
+  font-family: "Geist Pixel", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
 }
    
 }

@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Cadastre-se</title>
-  </head>
-  <body>
+</head>
+
+<body>
+
     <main class="container2">
-    <form>
-        <h1>Entre para o mundo de FunLand!</h1>
-        <div class="input-box">
-          <input placeholder="Email" type="email">
-        </div>
-        <div class="input-box">
-          <input placeholder="Senha" type="password">
-        </div>
-      <div class="input-box">
-          <input placeholder="Usuário" type="User">
-        </div>
-    </form>
+
+        <form>
+
+            <h1>Entre para o mundo de FunLand!</h1>
+
+            <div class="input-box">
+                <input type="email" placeholder="Email" autocomplete="email">
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="Usuário" autocomplete="username">
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Senha" autocomplete="new-password">
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Confirmar senha">
+            </div>
+
+            <button type="submit">Criar Conta</button>
+
+            <div class="link-login">
+                <p>Já possui uma conta? <a href="login.html">Entrar</a></p>
+            </div>
+
+        </form>
+
     </main>
-  </body>
+
+</body>
 </html>

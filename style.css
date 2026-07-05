@@ -1,14 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Yuyu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Yuyu&display=swap');
 
 * {
   margin; 0
   padding; 0
   box-sizing: border-box;
-   font-family: "Yuyu", sans-serif;
+  .yuyu-regular {
+  font-family: "Yuyu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+   
 }
 body {
   display: flex;
   justify-content: center;
   align-itens: center;
   min-height: 100vh;
+  background-bgcolor:"#189BCC";
+  background-size: cover;
+  background-position: center;
 }

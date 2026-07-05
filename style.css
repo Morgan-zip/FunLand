@@ -7,9 +7,8 @@
    font-family: "Yuyu", sans-serif;
 }
 body {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-itens: center;
+  min-height: 100vh;
 }
-  
-<!teste123>
